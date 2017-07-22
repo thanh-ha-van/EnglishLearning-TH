@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRobinEggBlue"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_choice_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_current_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/format_change_level"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:font="Trebuchet.ttf" />
+
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_change_config"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_blue"
+            android:gravity="center"
+            android:text="@string/change"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+    </LinearLayout>
+</LinearLayout>

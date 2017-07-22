@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhiteSmoke"
+    android:orientation="vertical">
+
+    <vn.magik.hot8.customviews.AutoResizeTextView
+        android:id="@+id/tv_the_trial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lines="1"
+        android:text="@string/the_trial"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="16sp" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_day_left_of_trial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="3 ngày"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/button_add_extra_day"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/plate_orange"
+        android:gravity="center"
+        android:text="@string/to_go_store"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:font="Trebuchet.ttf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+</LinearLayout>

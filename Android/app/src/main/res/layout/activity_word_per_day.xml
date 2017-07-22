@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vn.magik.hot8.activities.wordPerDayConfigActivity.WordPerDayConfigActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorRobinEggBlue"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:padding="11dp"
+            android:src="@drawable/ic_left_arrow" />
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="@string/word_of_day"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteSmoke"
+        android:gravity="center"
+        android:textColor="@color/colorBlackLight"
+        android:padding="16dp"
+        android:text="@string/choose_word_config"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:font="Trebuchet.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_config_word_per_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:overScrollMode="never" />
+</LinearLayout>

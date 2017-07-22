@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRobinEggBlue"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="6"
+        android:background="@drawable/bg_plate_strong"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <vn.magik.hot8.customviews.AutoResizeTextView
+                    android:id="@+id/tv_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorBlackLight"
+                    android:textSize="20sp"
+                    app:font="Trebuchet.ttf" />
+
+                <ImageView
+                    android:id="@+id/iv_play_audio"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_blue"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_speaker"
+                    android:tint="@color/colorRobinEggBlue" />
+            </FrameLayout>
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/fill_the_space"
+                android:textAllCaps="true"
+                android:textSize="13sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_your_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="25sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_unknown"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/i_dont_know"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:font="Trebuchet.ttf" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

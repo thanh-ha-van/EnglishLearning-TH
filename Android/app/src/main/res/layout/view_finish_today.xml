@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDeepSaffron"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_flag" />
+    </LinearLayout>
+
+    <vn.magik.hot8.customviews.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/done_the_quest"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:font="Trebuchet.ttf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:id="@+id/tv_more_practice"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/plate"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/do_more_practice"
+            android:textAllCaps="false"
+            android:textColor="@color/colorDeepSaffron"
+            android:textSize="16sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+</LinearLayout>

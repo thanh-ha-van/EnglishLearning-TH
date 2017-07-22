@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_summary_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_learning_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorRobinEggBlue"
+        android:textSize="30sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/word_have_learning"
+        android:textSize="20sp"
+        app:font="Trebuchet.ttf" />
+
+    <LinearLayout
+        android:id="@+id/view_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:id="@+id/tv_challenge_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="@string/msg_detect_challenge"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:id="@+id/tv_challenge"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_rec_button"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/practice"
+                android:textColor="@color/colorRobinEggBlue"
+                android:textSize="18sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

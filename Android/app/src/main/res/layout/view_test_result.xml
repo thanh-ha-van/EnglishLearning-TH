@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRobinEggBlue"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:id="@+id/tv_test_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:font="Trebuchet.ttf" />
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:id="@+id/tv_suggest_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_start_after_test"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/plate"
+        android:gravity="center"
+        android:text="@string/yes_start"
+        android:textAllCaps="false"
+        android:textColor="@color/colorRobinEggBlueDark"
+        android:textSize="20sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_keep_select_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:font="Trebuchet.ttf" />
+</LinearLayout>

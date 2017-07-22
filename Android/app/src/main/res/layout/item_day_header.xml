@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray"
+    android:gravity="center_vertical">
+
+    <vn.magik.hot8.customviews.CustomTextView
+        app:font="Trebuchet.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_day"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackLight"/>
+</LinearLayout>

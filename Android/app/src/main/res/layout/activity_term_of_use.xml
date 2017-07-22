@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorRobinEggBlue"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:padding="11dp"
+            android:src="@drawable/ic_left_arrow" />
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="@string/term_of_service"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/please_open_link"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackLight"
+                android:textSize="18sp"
+                app:font="Trebuchet.ttf" />
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autoLink="web"
+                android:paddingTop="10dp"
+                android:text="link.com.vn"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:font="Trebuchet.ttf" />
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/content_term"
+                android:gravity="left"
+                android:textColor="@color/colorBlackLight"
+                android:textSize="18sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

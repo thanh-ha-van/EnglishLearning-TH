@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/word_of_day_config"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_num_word_config"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/word_of_day"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/num_word_of_day_config"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/colorRobinEggBlue"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+
+    <LinearLayout
+        android:id="@+id/hobby_config"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/view_level_and_hobby_config"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/config"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+
+    <LinearLayout
+        android:id="@+id/all_word_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/my_all_word"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+    <LinearLayout
+        android:id="@+id/contact_dev"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/contact"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+    <LinearLayout
+        android:id="@+id/term_of_use"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/term_of_service"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_2" />
+
+</LinearLayout>
+

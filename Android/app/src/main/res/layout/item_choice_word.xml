@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp"
+    android:background="@drawable/bg_plate_strong"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="10">
+
+    <vn.magik.hot8.customviews.AutoResizeTextView
+        android:id="@+id/tv_count_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/format_choice_word"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="15sp"
+        app:font="Trebuchet.ttf" />
+
+
+    <vn.magik.hot8.customviews.AutoResizeTextView
+        android:id="@+id/tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:lines="1"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="30sp"
+        app:font="Trebuchet.ttf" />
+
+
+    <vn.magik.hot8.customviews.AutoResizeTextView
+        android:id="@+id/tv_mean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="1"
+        android:text="meaning of content"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_btn_listen"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_blue"
+            android:src="@drawable/ic_speaker"
+            android:tint="@color/colorRobinEggBlue" />
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_choice"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_rec_fill_yellow"
+            android:gravity="center"
+            android:text="@string/choice_word"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

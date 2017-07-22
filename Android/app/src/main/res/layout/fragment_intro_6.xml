@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorDeepSaffron"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_layout_image_intro"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/view_contain_gift"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/icon_behind" />
+
+        <ImageView
+            android:id="@+id/view_gift_2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="90dp"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_gift_2" />
+
+
+        <ImageView
+            android:id="@+id/view_gift_1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="-40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_gift_1" />
+
+        <ImageView
+            android:id="@+id/view_gift_3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="55dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_card" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/icon_front" />
+
+    </FrameLayout>
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/day_7"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/free"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/active_trial"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_active"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/plate_green"
+        android:gravity="center"
+        android:text="@string/active"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:font="Trebuchet.ttf" />
+</LinearLayout>

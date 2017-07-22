@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageButton
+        android:id="@+id/img_btn_listen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_speaker"
+        android:tint="@color/colorRobinEggBlue" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_mean"
+        android:layout_alignStart="@+id/tv_mean"
+        android:layout_alignTop="@+id/img_btn_listen"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:font="Trebuchet.ttf" />
+
+    <vn.magik.hot8.customviews.CustomTextView
+        android:id="@+id/tv_mean"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_word"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@+id/img_btn_listen"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="16sp"
+        app:font="Trebuchet.ttf" />
+
+    <ImageView
+        android:id="@+id/img_view_flower"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/ic_box_0"
+        android:tint="@color/colorRobinEggBlue" />
+
+</RelativeLayout>

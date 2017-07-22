@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDeepSaffron"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/your_level"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:font="Trebuchet.ttf" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_choose_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:overScrollMode="never"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_next"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/plate"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+
+</LinearLayout>

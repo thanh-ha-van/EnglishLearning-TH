@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="level_list">
+        <item>Người bắt đầu</item>
+        <item>Cơ bản</item>
+        <item>Trung bình</item>
+        <item>Trên trung bình</item>
+        <item>Nâng cao</item>
+    </string-array>
+    <string-array name="day_list">
+        <item>Hôm nay</item>
+        <item>Hôm qua</item>
+        <item>2 ngày trước</item>
+        <item>3 ngày trước</item>
+        <item>4 ngày trước</item>
+        <item>5 ngày trước</item>
+        <item>6 ngày trước</item>
+    </string-array>
+
+    <string-array name="day_week">
+        <item>Th2</item>
+        <item>Th3</item>
+        <item>Th4</item>
+        <item>Th5</item>
+        <item>Th6</item>
+        <item>Th7</item>
+        <item>CN</item>
+    </string-array>
+
+    <string-array name="user_favorite_list">
+        <item>Gia đình và bạn bè</item>
+        <item>Lao động và việc làm</item>
+        <item>Kinh doanh và tài chính</item>
+        <item>Trường học và đại học</item>
+        <item>Tính cách</item>
+        <item>Cảm giác và cảm xúc</item>
+        <item>Cơ thể con người</item>
+        <item>Trong nhà</item>
+        <item>Trong thành phố</item>
+        <item>Mua sắm</item>
+        <item>Quần áo và phụ kiện</item>
+        <item>Ăn uống</item>
+        <item>Thực phẩm và đồ uống</item>
+        <item>Rạp chiếu phim và nhà hát</item>
+        <item>Âm nhạc</item>
+        <item>Động vật</item>
+        <item>Công nghệ</item>
+        <item>Thể thao</item>
+        <item>Hoạt động và sở thích</item>
+        <item>thuốc và sức khỏe</item>
+        <item>Lái xe</item>
+        <item>Hình thức vận tải</item>
+        <item>Du lịch</item>
+        <item>Lễ kỷ niệm</item>
+        <item>Địa lý tự nhiên</item>
+        <item>Thời tiết và khí hậu</item>
+        <item>Thực vật</item>
+        <item>Thông báo và biển hiệu</item>
+        <item>Chính trị và chính quyền</item>
+        <item>Luật pháp và trật tự</item>
+        <item>Hành trình về quá khứ</item>
+        <item>Khái niệm</item>
+        <item>100 trạng từ thường dùng</item>
+        <item>100 tính từ thường dùng</item>
+        <item>100 động từ thường dùng</item>
+        <item>Tiếng lóng</item>
+        <item>Thành ngữ</item>
+        <item>Giao tiếp</item>
+
+    </string-array>
+</resources>

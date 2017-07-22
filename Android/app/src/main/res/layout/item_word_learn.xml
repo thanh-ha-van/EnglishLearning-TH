@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/view_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhiteSmoke"
+            android:orientation="vertical">
+
+            <vn.magik.hot8.customviews.AutoResizeTextView
+                android:id="@+id/tv_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:lines="1"
+                android:textColor="@color/colorBlackLight"
+                android:textSize="20sp" />
+
+            <vn.magik.hot8.customviews.CustomTextView
+                android:id="@+id/tv_mean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:lines="1"
+                android:textColor="@color/colorBlackLight"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <vn.magik.hot8.customviews.CustomTextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_plate_green"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </FrameLayout>
+</LinearLayout>

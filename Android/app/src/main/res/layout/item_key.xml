@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <vn.magik.hot8.customviews.CustomTextView
+        app:font="Trebuchet.ttf"
+        android:id="@+id/tv_key"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_plate_strong"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="24sp" />
+</RelativeLayout>

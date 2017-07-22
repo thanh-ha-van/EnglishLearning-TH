@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00b5cc</color>
+    <color name="colorPrimaryDark">#00b5cc</color>
+    <color name="colorAccent">#00b5cc</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="glass">#EEFFFFFF</color>
+    <color name="gray">#E2E2E2</color>
+    <color name="gray_2">#C2C2C2</color>
+    <color name="black">#000000</color>
+    <color name="colorBlackLight">#707070</color>
+    <color name="green">#55A01A</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#E17711</color><!--#-->
+    <color name="colorDeepSaffron">#00b5cc</color> <!--#FFA726-->
+    <color name="colorGamboge">#C2C2C2</color> <!--#FFA726-->
+    <color name="yellow">#FDD305</color>
+    <color name="red">#EC1C0A</color>
+    <color name="redLight">#ffbbbb</color>
+    <color name="colorRobinEggBlue">#00b5cc</color>
+    <color name="colorRobinEggBlueDark">#009EB3</color>
+    <color name="colorRobinEggBlueLight">#5cdbeb</color>
+    <color name="colorWhiteSmoke">#f6f6f6</color>
+</resources>

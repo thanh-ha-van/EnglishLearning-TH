@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_practive_word"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRobinEggBlue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <vn.magik.hot8.customviews.AutoResizeTextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:lines="2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:font="Trebuchet.ttf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/view_negative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <vn.magik.hot8.customviews.AutoResizeTextView
+                android:id="@+id/tv_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_button_blue"
+                android:gravity="center"
+                android:lines="1"
+                android:minWidth="150dp"
+                android:text="@string/no"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_positive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <vn.magik.hot8.customviews.AutoResizeTextView
+                android:id="@+id/tv_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/plate"
+                android:gravity="center"
+                android:lines="1"
+                android:minWidth="150dp"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textColor="@color/colorRobinEggBlueDark"
+                android:textSize="18sp"
+                app:font="Trebuchet.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
