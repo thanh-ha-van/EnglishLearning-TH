@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
 
-    <vn.magik.hot8.customviews.AutoResizeTextView
+    <thanh.ha.english.customviews.AutoResizeTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
@@ -20,7 +20,7 @@
         android:textSize="30sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_time_countdown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

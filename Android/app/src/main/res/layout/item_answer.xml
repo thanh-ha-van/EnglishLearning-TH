@@ -12,7 +12,7 @@
         android:layout_height="1dp"
         android:background="@color/gray" />
 
-    <vn.magik.hot8.customviews.AutoResizeTextView
+    <thanh.ha.english.customviews.AutoResizeTextView
         android:id="@+id/tv_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

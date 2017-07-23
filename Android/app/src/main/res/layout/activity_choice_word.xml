@@ -23,7 +23,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_current_level"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:font="Trebuchet.ttf" />
 
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_change_config"
             android:layout_width="150dp"
             android:layout_height="45dp"

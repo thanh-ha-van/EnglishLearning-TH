@@ -6,7 +6,7 @@
     android:background="@color/colorWhiteSmoke"
     android:orientation="vertical">
 
-    <vn.magik.hot8.customviews.AutoResizeTextView
+    <thanh.ha.english.customviews.AutoResizeTextView
         android:id="@+id/tv_the_trial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:textColor="@color/colorBlackLight"
         android:textSize="16sp" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_day_left_of_trial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/button_add_extra_day"
         android:layout_width="230dp"
         android:layout_height="50dp"

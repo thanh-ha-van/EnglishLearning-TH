@@ -21,7 +21,7 @@
             android:background="@color/colorWhiteSmoke"
             android:orientation="vertical">
 
-            <vn.magik.hot8.customviews.AutoResizeTextView
+            <thanh.ha.english.customviews.AutoResizeTextView
                 android:id="@+id/tv_word"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 android:textColor="@color/colorBlackLight"
                 android:textSize="20sp" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:id="@+id/tv_mean"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                 android:textSize="13sp" />
         </LinearLayout>
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_next"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

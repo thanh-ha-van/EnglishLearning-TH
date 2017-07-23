@@ -8,7 +8,7 @@
     android:paddingTop="16dp"
     android:textColor="@color/colorWhiteSmoke">
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -35,7 +35,7 @@
             app:donut_unfinished_color="@color/gray"
             app:donut_unfinished_stroke_width="8dp" />
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_level_content"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -60,7 +60,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:id="@+id/tv_word_per_week"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
                 android:textSize="20sp"
                 app:font="Trebuchet.ttf" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -95,7 +95,7 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:id="@+id/tv_word_per_month"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:textSize="20sp"
                 app:font="Trebuchet.ttf" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -121,7 +121,7 @@
         android:background="@color/gray" />
 
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -151,7 +151,7 @@
             app:arc_text_color="@color/white"
             app:arc_unfinished_color="@color/gray" />
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_speed_content"
             android:layout_width="100dp"
             android:layout_height="100dp"

@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:gravity="center">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/num_word_per_day"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_learning_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         android:textSize="30sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -37,7 +37,7 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:id="@+id/tv_challenge_word"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:id="@+id/tv_challenge"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"

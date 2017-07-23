@@ -18,7 +18,7 @@
         android:src="@drawable/ic_speaker"
         android:tint="@color/colorRobinEggBlue" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:textSize="18sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_mean"
         android:layout_width="220dp"
         android:layout_height="wrap_content"

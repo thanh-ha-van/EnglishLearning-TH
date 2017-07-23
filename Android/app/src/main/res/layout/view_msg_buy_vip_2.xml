@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         android:orientation="horizontal">
 
 
-        <vn.magik.hot8.customviews.AutoResizeTextView
+        <thanh.ha.english.customviews.AutoResizeTextView
             android:id="@+id/tv_remember"
             android:layout_width="wrap_content"
             android:layout_height="50dp"

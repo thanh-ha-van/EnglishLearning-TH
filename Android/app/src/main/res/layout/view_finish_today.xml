@@ -22,7 +22,7 @@
             android:src="@drawable/ic_flag" />
     </LinearLayout>
 
-    <vn.magik.hot8.customviews.AutoResizeTextView
+    <thanh.ha.english.customviews.AutoResizeTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -40,7 +40,7 @@
         android:layout_weight="3"
         android:gravity="center">
 
-        <vn.magik.hot8.customviews.AutoResizeTextView
+        <thanh.ha.english.customviews.AutoResizeTextView
             android:id="@+id/tv_more_practice"
             android:layout_width="wrap_content"
             android:layout_height="50dp"

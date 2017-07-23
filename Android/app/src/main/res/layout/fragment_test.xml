@@ -40,7 +40,7 @@
                 custom:donut_unfinished_stroke_width="5dp" />
 
 
-            <vn.magik.hot8.customviews.AutoResizeTextView
+            <thanh.ha.english.customviews.AutoResizeTextView
                 android:id="@+id/tv_word"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                 android:textSize="35sp"
                 app:font="Trebuchet.ttf" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

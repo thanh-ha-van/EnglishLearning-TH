@@ -20,7 +20,7 @@
             android:padding="11dp"
             android:src="@drawable/ic_left_arrow" />
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="50dp"
@@ -43,7 +43,7 @@
             android:background="@color/white"
             android:orientation="vertical">
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -54,7 +54,7 @@
                 android:textSize="18sp"
                 app:font="Trebuchet.ttf" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -65,7 +65,7 @@
                 android:textSize="18sp"
                 app:font="Trebuchet.ttf" />
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"

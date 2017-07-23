@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="60dp">
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"

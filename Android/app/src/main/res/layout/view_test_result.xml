@@ -13,7 +13,7 @@
         android:layout_margin="16dp"
         android:orientation="vertical">
 
-        <vn.magik.hot8.customviews.AutoResizeTextView
+        <thanh.ha.english.customviews.AutoResizeTextView
             android:id="@+id/tv_test_result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:textSize="24sp"
             app:font="Trebuchet.ttf" />
 
-        <vn.magik.hot8.customviews.AutoResizeTextView
+        <thanh.ha.english.customviews.AutoResizeTextView
             android:id="@+id/tv_suggest_level"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
     </LinearLayout>
 
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_start_after_test"
         android:layout_width="200dp"
         android:layout_height="50dp"
@@ -50,7 +50,7 @@
         android:textSize="20sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_keep_select_level"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

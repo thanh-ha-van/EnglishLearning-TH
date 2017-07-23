@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_num_word_config"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -23,7 +23,7 @@
             android:textSize="18sp"
             app:font="Trebuchet.ttf" />
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/num_word_of_day_config"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/view_level_and_hobby_config"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -78,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_all"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -108,7 +108,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
@@ -137,7 +137,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"

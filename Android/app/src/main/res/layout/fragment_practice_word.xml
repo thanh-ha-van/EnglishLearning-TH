@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <vn.magik.hot8.customviews.AutoResizeTextView
+                <thanh.ha.english.customviews.AutoResizeTextView
                     android:id="@+id/tv_word"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                     android:tint="@color/colorRobinEggBlue" />
             </FrameLayout>
 
-            <vn.magik.hot8.customviews.CustomTextView
+            <thanh.ha.english.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -64,7 +64,7 @@
             android:layout_height="1dp"
             android:background="@color/gray" />
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_your_answer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -82,7 +82,7 @@
         android:layout_weight="4"
         android:orientation="vertical">
 
-        <vn.magik.hot8.customviews.CustomTextView
+        <thanh.ha.english.customviews.CustomTextView
             android:id="@+id/tv_unknown"
             android:layout_width="wrap_content"
             android:layout_height="30dp"

@@ -59,7 +59,7 @@
 
     </FrameLayout>
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -68,7 +68,7 @@
         android:textSize="40sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -78,7 +78,7 @@
         android:textSize="25sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -90,7 +90,7 @@
         android:textSize="18sp"
         app:font="Trebuchet.ttf" />
 
-    <vn.magik.hot8.customviews.CustomTextView
+    <thanh.ha.english.customviews.CustomTextView
         android:id="@+id/tv_active"
         android:layout_width="150dp"
         android:layout_height="50dp"
